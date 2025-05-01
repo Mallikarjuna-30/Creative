@@ -1,0 +1,40 @@
+* {
+    text-decoration: none;
+    margin: 0%;
+    font-family: Comic Sans MS,Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn{
+    from{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    50%{
+        opacity:0.5;
+    }
+
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.info-bar{
+    color: aliceblue;
+    background-color: rgba(15, 15, 141, 0.89);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+}
+a:hover{
+    border: 1px solid aliceblue;
+}
