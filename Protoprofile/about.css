@@ -38,3 +38,6 @@ a{
 a:hover{
     border: 1px solid aliceblue;
 }
+.colour{
+    background: linear-gradient(45deg,rgba(222, 222, 233, 0.674),rgba(119, 119, 210, 0.674),rgba(88, 88, 214, 0.674),rgba(43, 43, 222, 0.89));
+}
